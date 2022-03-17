@@ -4,14 +4,14 @@ Generar un sitio web para la empresa "Transportes Armando Paredes", que incluya 
 ## Clase 1:
 Etiquetas básicas
 ```
-- [ ] <title> indica el título de la página Web, que se visualiza en la barra de título del navegador.  
-- [ ] <body> es el cuerpo del documento donde va a estar todo el contenido que vamos a mostrar.  
+- [x] <title> indica el título de la página Web, que se visualiza en la barra de título del navegador.  
+- [x] <body> es el cuerpo del documento donde va a estar todo el contenido que vamos a mostrar.  
 - [ ] <b>Texto en negrita o bold</b>  
 - [ ] <u>Texto subrayado</u>  
 - [ ] <mark>Texto marcado</mark>
 - [ ] <ins>Texto insertado</ins>
 - [ ] <small>Texto más pequeño</small>
-- [ ] <i>Texto en Itálica o cursiva</i>
+- [x] <i>Texto en Itálica o cursiva</i>
 - [ ] <del>Texto tachado</del>
 - [ ] Texto normal <sup>Texto en superíndice</sup>
 - [ ] Texto normal <sub>Texto del subíndice</sub>
@@ -22,21 +22,20 @@ Etiquetas básicas
 
 ## Clase 2:
 ```
-- [ ] <header>
-- [ ] <nav>
+- [x] <header>
+- [x] <nav>
 - [ ] <main>
 - [ ] <section>
 - [ ] <article>
 - [ ] <aside>
-- [ ] <footer>
-- [ ] <a href="https://www.google.com" target="_blank"> Google </a>
+- [x] <footer>
+- [x] <a href="https://www.google.com" target="_blank"> Google </a>
 - [ ] <a name="seccion"></a>
-- [ ] Lista desordenada
+- [x] Lista desordenada
 - [ ] Lista ordenada
 - [ ] Tablas
-- [ ] iframe
-- [ ] footer
+- [x] iframe
 ```
 
 ## Clase 3:
-- [ ] Relacionar el sitio creado hoy, con el formulario de la clase pasada
+- [x] Relacionar el sitio creado hoy, con el formulario de la clase pasada
