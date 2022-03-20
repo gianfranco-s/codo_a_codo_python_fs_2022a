@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="POST" target="_blank">
+        <fieldset>
+            <legend>Datos personales</legend>
+
+            <label for="firstname">Nombre: </label>
+            <input type="text" name="firstname" placeholder="Ingrese su nombre aquí...">
+            <br><br>
+
+            <label for="lastname">Apellido: </label>
+            <input type="text" name="lastname" placeholder="Ingrese su apellido aquí...">
+            <br><br>
+
+            <label for="telefono">Teléfono: </label>
+            <input type="tel" name="telefono" placeholder="Ingrese su teléfono aquí...">
+            <br><br>
+
+            <label for="correo">Correo electrónico: </label>
+            <input type="email" name="correo" placeholder="Ingrese su correo electrónico aquí...">
+            <br><br>
+
+            <label for="birthdate">Fecha de nacimiento: </label>
+            <input type="date" name="birthdate">
+            <br><br>
+
+            <input type="radio" name="name" value="Otro">Otro
+            <input type="radio" name="name" value="Hombre">Hombre
+            <input type="radio" name="name" value="Mujer">Mujer
+            <br><br>
+
+            <input type="radio" name="deadoralive" value="Muerto">Muerto
+            <input type="radio" name="deadoralive" value="Vivo">Vivo
+        </fieldset>
+        <br><br>
+        
+        <fieldset>
+            <legend>Tecnologías y estudios</legend>
+
+            <input type="checkbox" name="conocimiento" value="HTML">HTML
+            <input type="checkbox" name="conocimiento" value="CSS">CSS
+            <input type="checkbox" name="conocimiento" value="Javascript">Javascript
+            <input type="checkbox" name="conocimiento" value="Python">Python
+
+            <br><br>
+            <label>Estudios</label>
+            <select name="estudios">
+                <option value="Secundario">Secundario</option>
+                <option value="Terciario">Terciario</option>
+                <option value="Universidad">Universidad</option>
+                <option value="Posgrado">Posgrado</option>
+            </select>
+        </fieldset>
+        
+        <br><br>
+
+        <label for="comentarios">Dejanos tu mensaje</label><br>
+        <textarea name="comentarios" cols="30" rows="10"></textarea>
+        <br><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
