@@ -3,7 +3,7 @@ span{
     border: 1px solid black; /*borde: ancho, tipo y color*/
     height: 50px; /*alto*/
     width: 200px;
-    /* display: inline-block; forma de visualizar un elemento */
+    display: inline-block; /*forma de visualizar un elemento */
 }
 div{
     background-color: blue;

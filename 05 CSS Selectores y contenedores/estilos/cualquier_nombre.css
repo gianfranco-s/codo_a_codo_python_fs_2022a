@@ -1,0 +1,26 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+nav {
+    color:white;
+    background: violet;
+}
+
+p {
+    color:lightblue;
+}
+
+a {
+    color:aliceblue;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+.encabezado-articulo {
+    color:blue;
+    font-size: small;
+}
+
+#cualquier-id {
+    color:brown;
+}
