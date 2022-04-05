@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media queries</title>
+  <style>
+    body {
+      background-color: tan;
+    }
+
+    @media screen and (max-width: 992px) {
+      body {
+        background-color: blue;
+        color:white;
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      body {
+        background-color: olive;
+        color:white;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Cambiá el tamaño de la ventana para ver el efecto de las media queries</h1>
+  <p>
+    Color de fondo por defecto: "tan"
+    Si el ancho de ventana es de 992px o menos, el color de fondo será "blue"
+    Si el ancho ventana es 600px o menos, el color de fondo será "olive"
+  </p>
+</body>
+</html>

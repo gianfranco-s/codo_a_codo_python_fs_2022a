@@ -34,9 +34,9 @@ Con aling-self podemos posicionar solo un elemento hijo, generando así diferent
 @media all and (min-width: 800px){
     .articulo{flex:2 0;}
     .izquierda{order: 1;}
-    .articulo{order: 2;}
+    .articulo{order: 4;}
     .derecha{order: 3;}
-    .footer{order: 4;}
+    .footer{order: 2;}
 }
    
 .header{background: #581845;}

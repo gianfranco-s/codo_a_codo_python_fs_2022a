@@ -1,0 +1,27 @@
+* {
+    font-size: 40px;
+    text-align: center;
+}
+
+.papu {
+    background-color: steelblue;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    column-gap: 10px;
+}
+
+.primera {
+    background-color: red;
+    flex-grow: 1;
+}
+
+.segunda {
+    background-color: green;
+    flex-grow: 2;
+}
+
+.tercera {
+    background-color: blue;
+    flex-grow: 1;
+}

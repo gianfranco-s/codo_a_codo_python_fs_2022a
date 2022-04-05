@@ -1,7 +1,8 @@
 *{font-family: Verdana;}
 .contenedor {
     background-color: blue;
-    display: flex; 
+    display: flex;
+    /* display: inline-flex; */
     flex-direction:row;
     /* flex-direction:row-reverse; */
     /* flex-direction:column; */
@@ -55,6 +56,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     height: 300px;
+    color: aliceblue;
     
     align-items: flex-start;
     /* align-items: flex-end; */
