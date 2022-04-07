@@ -1,0 +1,36 @@
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap: 10px;
+    grid-template-areas:
+    ".     tarj1 .    "
+    "tarj2 tarj1 tarj3"
+    "tarj2 tarj4 tarj3"
+    ".     tarj4 .    ";
+}
+
+.tarjeta {
+    background: white;
+    padding: 20px;
+    border: 0.5px rgb(179, 177, 177) solid;
+    border-radius: 10%;
+    border-top: 5px blue solid;
+}
+
+.tarjeta:nth-of-type(1) {
+    grid-area: tarj1;
+}
+
+.tarjeta:nth-of-type(2) {
+    grid-area: tarj2;
+}
+
+.tarjeta:nth-of-type(3) {
+    grid-area: tarj3;
+}
+
+.tarjeta:nth-of-type(4) {
+    grid-area: tarj4;
+}
+

@@ -1,0 +1,25 @@
+* {
+    font-size: 4vw;
+}
+
+
+.contenedor > div {
+    background: blue;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr 2fr 1fr;
+    gap: 10px;
+}
+
+.mi-titulo {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    font-weight: bold;
+}
